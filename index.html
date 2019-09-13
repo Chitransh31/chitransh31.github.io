@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <!-- Website Title & Description for Search Engine purposes -->
+        <title>Canvas</title>
+        <meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+        <meta charset="UTF-8">
+
+        <!-- Mobile viewport optimized -->
+        <meta name="view" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+
+    </head>
+
+    <body>
+        
+        
+        <div class="container" id="main">
+            
+                <div class="navbar navbar-fixed-top">
+            
+                    <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" 
+                    type="button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a class="navbar-brand" href="/">
+                        <img src="img/nike.png" alt="Canvas" id="logo">
+                    </a>
+                    
+    
+                    <div class="nav-collapse collapse navbar-responsive-collapse">
+                        <ul class="nav navbar-nav pull-left">
+    
+                            <li class="active">
+                                    <a href="#">
+                                        <div>Home</div>
+                                    </a>
+                            </li>
+    
+                            <li class="dropdown">
+    
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        <div>Features
+                                            <strong class="caret"></strong>
+                                        </div>
+                                </a>
+    
+                                <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Web Design</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#">Web Development</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#">SEO</a>
+                                        </li>
+                                        
+                                        <li class="divider"></li>
+                                        
+                                        <li class="dropdown-header">More Services</li>
+                                        
+                                        <li>
+                                            <a href="#">Content Creation</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#">Social Media Marketing</a>
+                                        </li>
+                                    </ul><!-- end dropdown-menu -->
+    
+                            </li>
+    
+                            <li>
+                                    <a href="#">
+                                        <div>Page</div>
+                                    </a>
+                            </li>
+    
+                            <li>
+                                    <a href="#">
+                                            <div>Portfolio</div>
+                                        </a>
+                            </li>
+                            
+                            <li>
+                                    <a href="#">
+                                        <div>Blog</div>
+                                    </a>
+                            </li>
+    
+                            <li>
+                                    <a href="#">
+                                        <div>Shop</div>
+                                    </a>
+                            </li>
+    
+                            <li>
+                                    <a href="#">
+                                        <div>Shortcodes</div>
+                                    </a>
+                            </li>
+    
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    </div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+    
+                        <form class="navbar-form pull-right">
+                                <input type="text" class="form-control" placeholder="Search this Site..." id="searchInput">
+                                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                        </form>
+                        
+                    </div>                     
+            </div>
+
+
+            <div class="carousel silde" id="myCarousel">
+
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+                        <div class="carousel-caption">
+                                <h4>Bootstrap 3</h4>
+                                <p>My first website using Twitter Bootstrap 3!</p>
+                        </div>
+					</div>
+
+					<div class="item" id="slide2">
+                        <div class="carousel-caption">
+                                <h4>Learn to code in 4 hours!</h4>
+                                <p>CSS3 is a popular udemy course.</p>
+                        </div>
+					</div>
+
+					<div class="item" id="slide3">
+                        <div class="carousel-caption">
+                                <h4>Web Hosting 101</h4>
+                                <p>Buy a perfect domain.</p>
+                        </div>
+					</div>
+				</div>
+
+				<a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+				<a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
+
+			</div>
+
+            <div class="row" id="features">
+				
+                    <div class="col-sm-4 feature">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Why Choose Us</h3>
+                            </div>
+                            <img src="img/1.jpg" alt="HTML5" class="img-rounded">
+    
+                            <p>Meh bitters shaman, taiyaki jianbing shoreditch brooklyn 8-bit tbh.</p>
+    
+                            <a href="https://hipsum.co/?paras=5&type=hipster-centric&start-with-lorem=1" 
+                            target="_blank" class="btn btn-warning btn-block">Learn more</a>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-4 feature">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Our Mission</h3>
+                            </div>
+                            <img src="img/2.jpg" alt="CSS3" class="img-rounded">
+    
+                            <p>Meh bitters shaman, taiyaki jianbing shoreditch brooklyn 8-bit tbh.</p>
+    
+                            <a href="https://hipsum.co/?paras=5&type=hipster-centric&start-with-lorem=1" 
+                            target="_blank" class="btn btn-danger btn-block">Mission</a>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-4 feature">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">What We Do</h3>
+                            </div>
+                            <img src="img/3.jpg" alt="Bootstrap 3" class="img-rounded">
+    
+                            <p>Meh bitters shaman, taiyaki jianbing shoreditch brooklyn 8-bit tbh.</p>
+    
+                            <a href="http://getbootstrap.com" target="_blank" class="btn btn-info btn-block">Our Work</a>
+                        </div>
+                    </div>
+    
+                </div>
+            
+                <div class="jumbotron">
+
+                    <h1 class="display-4">Easy Configurable Options.</h1>
+
+                    <p class="lead">
+                            Choose from a wide array of Options for your best matched Customizations
+                    </p>
+                    
+                    <div class="col-full">
+                        <img class="img-responsive aligncenter fadeIn animated" data-animate="fadeIn" src="img/macbook.png" alt="Macbook">
+                    </div>
+
+                    <div class="container">  
+                        <div class="row">
+
+                            <div class="col-sm-4 nobottommargin">
+                                    <h3 class="h3display">Choose a Product.</h3>
+                                    <p class="pdisplay">Perferendis, nam. 
+                                        Eum aperiam vel animi beatae corporis dignissimos, molestias, placeat, 
+                                        maxime optio ipsam nostrum atque quidem.
+                                    </p>
+                                </div>
+    
+                                <div class="col-sm-4 nobottommargin">
+                                        <h3 class="h3display">Enter Shipping Info.</h3>
+                                        <p class="pdisplay">Saepe qui enim at animi. Repellendus, 
+                                            blanditiis doloremque asperiores 
+                                            reprehenderit deleniti. Ipsam nam accusantium ex!
+                                        </p>
+                                </div>
+    
+                                <div class="col-sm-4 nobottommargin">
+                                        <h3 class="h3display">Complete your Payment.</h3>
+                                        <p class="pdisplay">Necessitatibus accusamus, inventore atque commodi, 
+                                            animi architecto ea sed, 
+                                            suscipit tempora ex deleniti quae. Consectetur, sint velit.
+                                        </p>
+                                </div>
+
+                        </div>
+                    </div>
+
+                    
+                </div>
+                
+                <!---
+                <div class="container-fluid">
+                    <div class="row">
+
+                            <div class="col-sm-4 col-md-3">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <p>...</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-md-3">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>...</p>
+                                    </div>
+                            </div>
+
+                            <div class="col-sm-4 col-md-3">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>...</p>
+                                    </div>
+                            </div>
+
+                    </div>
+                </div>
+            -->
+
+
+        
+        </div>
+
+        <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h6>Copyright &copy; 2019 Saurabh</h6>
+                        </div><!-- end col-sm-2 -->
+                        
+                        <div class="col-sm-4">
+                            <h6>About Us</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                                qui officia deserunt mollit anim id est laborum.</p>
+                        </div><!-- end col-sm-4 -->
+                        
+                        <div class="col-sm-2">
+                            <h6>Navigation</h6>
+                            <ul class="unstyled">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Links</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div><!-- end col-sm-2 -->
+                        
+                        <div class="col-sm-2">
+                            <h6>Follow Us</h6>
+                            <ul class="unstyled">
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Google Plus</a></li>
+                            </ul>
+                        </div><!-- end col-sm-2 -->
+                        
+                        <div class="col-sm-2">
+                            <h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Saurabh</h6>
+                        </div><!-- end col-sm-2 -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+        </footer>
+
+    </body>
+
+</html>
